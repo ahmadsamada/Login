@@ -1,0 +1,14 @@
+audio{
+    position: absolute;
+    visibility: hidden;
+}
+.toggle{
+    font-size: 1.8em;
+    position: fixed;
+    border-radius: 15px;
+    border: white solid 3px;
+    color: white;
+    padding: 5px 10px;
+    margin: 10px 10px;
+    cursor: default;
+}
