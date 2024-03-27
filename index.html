@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, height=device-height">
+    <title>Genshin Login Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="ost.css">
+    <link rel="shortcut icon" href="icon.png">
+</head>
+<body>
+    <audio src="mainTheme.mp3" controls id="pla"></audio>
+    <div class="toggle">Music: <span>OFF</span> </div>
+    <section class="window">
+        <h1>Enter Admin Password</h1>
+        <div>
+            <p>remark: the password is not "bird' at all...</p>
+            <div>
+                <input type="password" id="psw" placeholder="Enter Password">
+                <span class="btns">
+                    <button class="btn" id="enter">
+                        <img src="ntrbtncl.png" width=165px id="cli">
+                        <img src="ntrbtn.png" width=165px>
+                    </button>
+                    <button class="btn" id="leaver">
+                        <img src="leave.png" width=165px id="cli">
+                        <img src="leave.png" width=165px>
+                    </button>
+                </span>
+            </div>
+        </div>
+    </section>
+    <section class="login">
+            <form method="get" id="form" action="history.html">
+                <img src="genshin.png" width=220px>
+                <div>
+                    <span>User ID:</span>
+                    <input type="text" name="userID" placeholder="Enter Account ID">
+                </div>
+                <div>
+                    <span>Password:</span>
+                    <input type="password" name="password" placeholder="Enter Password">
+                </div>
+
+                <span class="btns">
+                    <button type="submit" class="btn">
+                        <img src="logbtncl.png" width=190px id="cli">
+                        <img src="logbtn.png" width=190px>
+                    </button>
+                    <button type="reset" class="btn">
+                        <img src="leavebtncl.png" width=190px id="cli">
+                        <img src="leavebtn.png" width=190px>
+                    </button>
+                </span>
+            </form>
+    </section>
+    
+    <footer>
+        <img src="hoyoverse.png" height=30px>
+        <button class="btn" id='hist'>
+                <img src="hisbtncl.png" width=150px id="cli">
+                <img src="hisbtn.png" width=150px>
+        </button>
+    </footer>
+
+    <script src="login.js"></script>
+</body>
+</html>
